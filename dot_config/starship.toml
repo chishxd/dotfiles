@@ -1,0 +1,24 @@
+# Single-line format: full/path (git_branch) ❯ 
+format = "$directory$git_branch$git_status$character"
+
+# Don't print an empty line before the prompt
+add_newline = false
+
+[directory]
+style = "bold cyan"
+truncation_length = 0       # 0 = NEVER truncate parent directories
+truncate_to_repo = false    # Keep full path even inside a git repository
+read_only = " 󰌾"
+
+[git_branch]
+symbol = " "
+style = "bold purple"
+format = "([$symbol$branch]($style) )"
+
+[git_status]
+style = "bold red"
+format = "([$all_status$ahead_behind]($style) )"
+
+[character]
+success_symbol = "[❯](bold green) "
+error_symbol = "[❯](bold red) "

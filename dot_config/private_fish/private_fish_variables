@@ -1,0 +1,5 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR __fish_initialized:4300
+SETUVAR fish_greeting:\x1d
+SETUVAR fish_user_paths:/home/chish/\x2edotnet\x1e/home/chish/go/bin\x1e/home/chish/\x2ecargo/bin\x1e/home/chish/\x2espicetify\x1e/home/chish/\x2eopencode/bin\x1e/home/chish/\x2econfig/emacs/bin\x1e/home/chish/\x2edeno/bin\x1e/home/chish/\x2ebun/bin\x1e/home/chish/\x2elocal/share/pnpm/bin\x1e/home/chish/\x2elocal/bin

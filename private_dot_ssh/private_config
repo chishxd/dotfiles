@@ -1,0 +1,29 @@
+Host pagure.io
+    HostName pagure.io
+    User git
+    IdentityFile ~/.ssh/id_ed25519_fedora
+    IdentitiesOnly yes
+    AddKeysToAgent yes
+
+Host forge.fedoraproject.org
+  HostName forge.fedoraproject.org
+  User git
+  IdentityFile ~/.ssh/id_ed25519_forge
+
+Host codeberg.org
+    HostName codeberg.org
+    User git
+    IdentityFile ~/.ssh/id_ed25519_codeberg
+    AddKeysToAgent yes
+
+Host invent.kde.org
+    HostName invent.kde.org
+    User git
+    IdentityFile ~/.ssh/id_ed25519_invent
+    IdentitiesOnly yes
+
+Host raspi
+	HostName raspi.local
+	User pi
+	IdentityFile ~/.ssh/id_ed25519_raspi
+	IdentitiesOnly yes
