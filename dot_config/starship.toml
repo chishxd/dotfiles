@@ -11,14 +11,13 @@ truncate_to_repo = false    # Keep full path even inside a git repository
 read_only = " 󰌾"
 
 [git_branch]
-symbol = " "
 style = "bold purple"
-format = "([$symbol$branch]($style) )"
+format = '([\($branch\)]($style) )'
 
 [git_status]
 style = "bold red"
 format = "([$all_status$ahead_behind]($style) )"
 
 [character]
-success_symbol = "[❯](bold green) "
-error_symbol = "[❯](bold red) "
+success_symbol = "[>](bold green) "
+error_symbol = "[>](bold red) "
